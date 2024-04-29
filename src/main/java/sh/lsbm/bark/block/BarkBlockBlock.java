@@ -1,6 +1,8 @@
 
 package sh.lsbm.bark.block;
 
+import sh.lsbm.bark.init.LsbmModItems;
+
 import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
@@ -36,6 +38,6 @@ public class BarkBlockBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(LsbmModItems.BARK_PIECE.get()));
 	}
 }
