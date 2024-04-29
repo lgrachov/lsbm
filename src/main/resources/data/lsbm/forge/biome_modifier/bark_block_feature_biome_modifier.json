@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "lsbm:bark_block_feature",
+  "step": "top_layer_modification"
+}

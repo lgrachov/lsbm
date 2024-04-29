@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "lsbm:bark_piece"
+    }
+  },
+  "result": {
+    "item": "lsbm:bark_carpet",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="lsbm"
+version="1.25.4"
+displayName="Leo's Simple Bark Mod"
+displayURL="https://github.com/lgrachov/lsbm"
+logoFile="logo.png"
+credits="Made by @lgrachov with Blockbench and MCreator"
+authors="lgrachov, Blockbench, MCreator"
+description="A simple bark mod for Minecraft."
+
+[[dependencies.lsbm]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

@@ -1,0 +1,7 @@
+{
+  "type": "lsbm:structure_feature",
+  "config": {
+    "structure": "lsbm:bark_block",
+    "ignored_blocks": "minecraft:air"
+  }
+}

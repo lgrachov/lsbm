@@ -1,0 +1,421 @@
+{
+  "mod_elements": [
+    {
+      "name": "BarkCarpet",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_carpet",
+      "metadata": {
+        "files": [
+          "src/main/java/sh/lsbm/bark/block/BarkCarpetBlock.java",
+          "src/main/resources/assets/lsbm/blockstates/bark_carpet.json",
+          "src/main/resources/assets/lsbm/models/item/bark_carpet.json",
+          "src/main/resources/assets/lsbm/models/block/bark_carpet.json"
+        ]
+      }
+    },
+    {
+      "name": "BarkPiece",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_piece",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lsbm/models/item/bark_piece.json",
+          "src/main/java/sh/lsbm/bark/item/BarkPieceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BarkCarpetRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_carpet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lsbm/recipes/bark_carpet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BarkArmor",
+      "type": "armor",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lsbm/models/item/bark_armor_leggings.json",
+          "src/main/resources/assets/lsbm/models/item/bark_armor_chestplate.json",
+          "src/main/java/sh/lsbm/bark/item/BarkArmorItem.java",
+          "src/main/resources/assets/lsbm/models/item/bark_armor_helmet.json",
+          "src/main/resources/assets/lsbm/models/item/bark_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "BarkArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lsbm/recipes/bark_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BarkArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lsbm/recipes/bark_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BarkArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lsbm/recipes/bark_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BarkArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lsbm/recipes/bark_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BarkPickaxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lsbm/models/item/bark_pickaxe.json",
+          "src/main/java/sh/lsbm/bark/item/BarkPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BarkAxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/sh/lsbm/bark/item/BarkAxeItem.java",
+          "src/main/resources/assets/lsbm/models/item/bark_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "BarkSword",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lsbm/models/item/bark_sword.json",
+          "src/main/java/sh/lsbm/bark/item/BarkSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BarkShovel",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/sh/lsbm/bark/item/BarkShovelItem.java",
+          "src/main/resources/assets/lsbm/models/item/bark_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "BarkHoe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lsbm/models/item/bark_hoe.json",
+          "src/main/java/sh/lsbm/bark/item/BarkHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BarkPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lsbm/recipes/bark_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BarkAxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lsbm/recipes/bark_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BarkSwordRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lsbm/recipes/bark_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BarkShovelRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lsbm/recipes/bark_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BarkHoeRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lsbm/recipes/bark_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BarkBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lsbm/models/block/bark_block.json",
+          "src/main/java/sh/lsbm/bark/block/BarkBlockBlock.java",
+          "src/main/resources/assets/lsbm/blockstates/bark_block.json",
+          "src/main/resources/assets/lsbm/models/item/bark_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BarkBasket",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_basket",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lsbm/models/item/bark_basket.json",
+          "src/main/resources/assets/lsbm/blockstates/bark_basket.json",
+          "src/main/java/sh/lsbm/bark/block/entity/BarkBasketBlockEntity.java",
+          "src/main/java/sh/lsbm/bark/block/BarkBasketBlock.java",
+          "src/main/resources/assets/lsbm/models/block/bark_basket.json"
+        ]
+      }
+    },
+    {
+      "name": "BasketInterface",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basket_interface",
+      "metadata": {
+        "files": [
+          "src/main/java/sh/lsbm/bark/world/inventory/BasketInterfaceMenu.java",
+          "src/main/java/sh/lsbm/bark/client/gui/BasketInterfaceScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "BasketOpen",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basket_open",
+      "metadata": {
+        "files": [
+          "src/main/java/sh/lsbm/bark/procedures/BasketOpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BarkBlockStructure",
+      "type": "structure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_block_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lsbm/worldgen/structure_set/bark_block_structure.json",
+          "src/main/resources/data/lsbm/worldgen/template_pool/bark_block_structure.json",
+          "src/main/resources/data/lsbm/worldgen/structure/bark_block_structure.json"
+        ]
+      }
+    },
+    {
+      "name": "BarkBlockFeature",
+      "type": "feature",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bark_block_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lsbm/forge/biome_modifier/bark_block_feature_biome_modifier.json",
+          "src/main/resources/data/lsbm/worldgen/placed_feature/bark_block_feature.json",
+          "src/main/resources/data/lsbm/worldgen/configured_feature/bark_block_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "LSBM",
+      "type": "tab",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lsbm",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.lsbm.bark_hoe": "Bark Hoe",
+      "item.lsbm.bark_pickaxe": "Bark Pickaxe",
+      "gui.lsbm.basket_interface.label_basket": "Basket",
+      "block.lsbm.bark_block": "Bark Block",
+      "item.lsbm.bark_piece": "Bark Piece",
+      "item.lsbm.bark_sword": "Bark Sword",
+      "item.lsbm.bark_armor_chestplate": "Bark Chestplate",
+      "item.lsbm.bark_axe": "Bark Axe",
+      "block.lsbm.bark_carpet": "Bark Carpet",
+      "item.lsbm.bark_armor_boots": "Bark Boots",
+      "item.lsbm.bark_armor_leggings": "Bark Leggings",
+      "item_group.lsbm.lsbm": "LSBM",
+      "item.lsbm.bark_armor_helmet": "Bark Helmet",
+      "block.lsbm.bark_basket": "Bark Basket",
+      "item.lsbm.bark_shovel": "Bark Shovel"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "lsbm",
+    "modName": "Leo\u0027s Simple Bark Mod",
+    "version": "1.25.4",
+    "description": "A simple bark mod for Minecraft.",
+    "author": "lgrachov, Blockbench, MCreator",
+    "websiteURL": "https://github.com/lgrachov/lsbm",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "banner",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Made by @lgrachov with Blockbench and MCreator",
+    "modElementsPackage": "sh.lsbm.bark",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

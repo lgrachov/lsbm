@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "lsbm:bark_block_structure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "salt": 739574487
+  }
+}

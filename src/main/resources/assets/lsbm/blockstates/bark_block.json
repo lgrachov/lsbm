@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "lsbm:block/bark_block"
+    }
+  }
+}

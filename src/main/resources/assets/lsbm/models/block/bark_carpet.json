@@ -1,0 +1,9 @@
+{
+  "parent": "lsbm:custom/bark_carpet",
+  "textures": {
+    "all": "lsbm:block/bark_texture",
+    "particle": "lsbm:block/particle",
+    "1": "lsbm:block/bark_texture"
+  },
+  "render_type": "solid"
+}

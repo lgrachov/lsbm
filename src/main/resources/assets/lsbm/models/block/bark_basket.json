@@ -1,0 +1,10 @@
+{
+  "parent": "lsbm:custom/bark_basket",
+  "textures": {
+    "all": "lsbm:block/bark_texture",
+    "particle": "lsbm:block/particle",
+    "0": "lsbm:block/bark_texture",
+    "missing": "lsbm:block/bark_texture"
+  },
+  "render_type": "solid"
+}

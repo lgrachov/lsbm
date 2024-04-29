@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {},
+      "name": "default"
+    },
+    "bark": {
+      "map": {},
+      "name": "bark"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "LSBM",
+    "icon": {
+      "value": "CUSTOM:BarkPiece"
+    },
+    "showSearch": false
+  }
+}
