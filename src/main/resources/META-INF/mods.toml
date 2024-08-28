@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="lsbm"
-version="1.25.4"
+version="1.25.5"
 displayName="Lev's Simple Bark Mod"
 displayURL="https://github.com/lgrachov/lsbm"
 logoFile="logo.png"
