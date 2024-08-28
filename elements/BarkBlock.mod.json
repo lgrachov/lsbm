@@ -21,7 +21,7 @@
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
-    "disableOffset": false,
+    "disabLevffset": false,
     "boundingBoxes": [
       {
         "mx": 0.0,

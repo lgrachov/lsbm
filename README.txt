@@ -1,4 +1,4 @@
-LSBM (Leo's Simple Bark Mod)
+LSBM (Lev's Simple Bark Mod)
 ========================
 A simple bark mod for Minecraft.
 
